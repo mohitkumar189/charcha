@@ -62,7 +62,7 @@ app.get('/get-token', (req, res, next) => {
 })
 
 //It validate the token variable in request
-app.use(tokenValidator);
+//app.use(tokenValidator);
 
 
 /*
@@ -79,9 +79,9 @@ let configObject = {
     defaultRole: 'anonymous'
 };
 
-acl.config(configObject, responseObject);
+//acl.config(configObject, responseObject);
 
-app.use(acl.authorize);
+//app.use(acl.authorize);
 /*
     ------------------------ACL CONFIG END-------------------
 */

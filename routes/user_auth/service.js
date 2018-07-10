@@ -16,7 +16,9 @@ module.exports = {
             let model = new Model(dataForSaving);
             return new Promise((resolve, reject) => {
                 model
-                    .save()
+                    .save({
+                        upsert: false
+                    })
                     .then((data) => {
                         resolve(data);
                     })

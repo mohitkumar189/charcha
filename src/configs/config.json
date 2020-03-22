@@ -1,0 +1,19 @@
+{
+  "development": {
+    "HOST": "localhost",
+    "USER": "root",
+    "PASSWORD": "",
+    "DATABASE_NAME": "phone_pe_charcha",
+    "SECRET_KEY": "helothisisasecretkey",
+    "BASE_URL":"",
+    "SERVER_PORT":3000
+  },
+  "production": {
+    "HOST": "localhost",
+    "USER": "root",
+    "PASSWORD": "",
+    "DATABASE_NAME": "phone_pe_charcha",
+    "SECRET_KEY": "helothisisasecretkey",
+    "SERVER_PORT":3000
+  }
+}

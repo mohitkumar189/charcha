@@ -12,7 +12,7 @@
     "app-root-path": "^2.1.0",
     "async": "*",
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.20.1",
     "chalk": "^2.4.0",
     "cookie-parser": "^1.4.3",
     "dotenv": "^5.0.1",
